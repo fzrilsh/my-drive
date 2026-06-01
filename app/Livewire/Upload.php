@@ -31,7 +31,7 @@ class Upload extends Component
         return [
             'name' => 'required|unique:repositories,name',
             'category' => 'required',
-            'file' => 'required|file|mimes:zip|max:61440'
+            'file' => 'required|file|mimes:zip|max:102400'
         ];
     }
 
